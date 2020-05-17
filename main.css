@@ -1,3 +1,25 @@
+/*!
+Author: GARVIT CHITTORA
+Version: 1.0
+Theme: convid-19
+Developed for Selection In WebD Wing Geekheaven
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+NO OF SECTIONS : 11
+1) Scroll
+2) Move to the top
+3) PRELOADER
+4) BANNER
+5) STAT SECTION
+6) PROFILE
+7) FIXED HEADER
+8) SAFE-ACTION
+9) MID SECTION
+10) LOWER MID
+11) FOOTER
+--------------------------------------------------------------*/
 body{
 	margin: 0;
 }
@@ -16,6 +38,52 @@ body{
   border-radius: 10px;
 }
 /*---------------------------------------- FINISH SCROLL ----------------------------------------*/
+/*-----------------------------------------MOVE TO THE TOP---------------------------------------*/
+.scrolltop {
+	display:none;
+	width:100%;
+	margin:0 auto;
+	position:fixed;
+	bottom:20px;	
+	z-index: 99;
+}
+.scroll {
+	position:fixed;
+	right: 0px;
+	bottom:20px;
+	background:#b2b2b2;
+	background:linear-gradient(to right,rgb(25, 122, 137) 9.38%,rgb(6, 37, 76) 88.54%);
+	padding:20px;
+	text-align: center;
+	margin: 0 0 0 0;
+	cursor:pointer;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 	
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+.scroll:hover {
+	background:rgba(178,178,178,1.0);
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 		
+}
+.scroll:hover .fa {
+	padding-top:-10px;
+}
+.scroll .fa {
+	font-size:30px;
+	margin-top:-5px;
+	margin-left:1px;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 	
+}
+/*-------------------------------FINISH MOVE TO THE TOP--------------------------------------*/
 /*---------------------------------------- PRELOADER ----------------------------------------*/
 
 .overlay {
