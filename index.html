@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>GO CORONA GO..</title>
+      <link rel="stylesheet" type="text/css" href="main.css">
+      <!-- I HAD NOT USED BOOTSTRAP BELOW LINK IS FOR FONT AWESOME -->
+      <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      <link rel="shortcut icon" href="images/logo.png" type="image/png" />
+      <style>
+         ::placeholder{
+         font-size: 90%;
+         padding-left: 5%; 
+         }
+      </style>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+   </head>
+   <body>
+      <!-- /*---------------------------------------- PRELOADER FINISH ----------------------------------------*/ -->
+      <div class='overlay'>
+         <div class="loader-loading">
+            <div></div>
+            <div></div>
+            <div></div>
+         </div>
+         <h1>
+            GO CORONA GO....
+         </h1>
+      </div>
+      <!-- /*---------------------------------------- PRELOADER FINISH ----------------------------------------*/ -->
+      <!-- /*---------------------------------------- BANNER ----------------------------------------*/  -->
+      <section class="banner-section">
+         <div class="banner-area">
+            <div class="banner-section-container">
+               <div class="banner-heading">
+                  <div class="content-part">
+                     <div class="banner-content">
+                        <h2 id="cover-heading">COVID-19</h2>
+                        <h2 id="cover-sub-heading">All <b> Live</b> Update</h2>
+                        <a href="#">
+                           <div id="meet-doctor-div">
+                              <p class="meet_doctor"><b>MEET THE DOCTOR</b></p>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="div-rotate">
+                  <div class="banner-round" >
+                     <img src="images/01.png" alt="banner" id="rotate">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- /*---------------------------------------- BANNER FINISH ----------------------------------------*/    -->
+      <!-- /*---------------------------------------- STAT SECTION ----------------------------------------*/  -->
+      <section class="stats-section">
+         <div  class="stats-section-cover">
+            <div class="stats-section-upper">
+               <div class="stats-section-upper1">
+                  <div class="corona-thumb">
+                     <img src="images/corona/01.png" alt="corona">
+                  </div>
+                  <div class="corona-content">
+                     <h3 class="count-number">762774</h3>
+                     <p >Coronavirus Cases</p>
+                  </div>
+               </div>
+               <div  class="stats-section-upper2">
+                  <div class="corona-thumb">
+                     <img src="images/corona/02.png" alt="corona">
+                  </div>
+                  <div class="corona-content">
+                     <h3 class="count-number">325050</h3>
+                     <p >Recovered Cases</p>
+                  </div>
+               </div>
+               <div class="stats-section-upper3">
+                  <div class="corona-thumb">
+                     <img src="images/corona/03.png" alt="corona">
+                  </div>
+                  <div class="corona-content">
+                     <h3 class="count-number">34558</h3>
+                     <p >Total Deaths</p>
+                  </div>
+               </div>
+               <div class="stats-section-upper4">
+                  <div class="corona-thumb">
+                     <img src="images/corona/04.png" alt="corona">
+                  </div>
+                  <div class="corona-content">
+                     <h3>
+                        <span class="count-number" >
+                        200
+                        </span>
+                        +
+                     </h3>
+                     <p>Total Country</p>
+                  </div>
+               </div>
+            </div>
+            <div class="map-data">
+               <div class="clt-left1">
+                  <h1>Covid-19 Affected Areas</h1>
+               </div>
+               <div class="clt-right">
+                  <ul class="most-least-affected">
+                     <div class="most-affected"></div>
+                     <li>Most Affected</li>
+                     <div class="least-affected"></div>
+                     <li>Least Affected</li>
+                  </ul>
+               </div>
+               <div class="map">
+                  <img src="images/corona/map.jpg" alt="cl-map">
+               </div>
+            </div>
+            <div class="countries-data">
+               <div class="countries-data-heading">
+                  <div class="clt-left">
+                     <h2 >Top 10 Countries</h2>
+                  </div>
+                  <a href="#" id="Full_List">
+                     <p >See Full List &nbsp »</p>
+                  </a>
+               </div>
+               <div class="cr-body">
+                  <div class="crb-title">
+                     <div class="countryname">Country</div>
+                     <div class="cr-case">Case</div>
+                     <div class="cr-deaths">Deaths</div>
+                  </div>
+                  <div class="crb-list">
+                     <ul class="lab-ul">
+                        <li class="li-country-data">
+                           <div class="cr-country">
+                              <img src="images/country/03.png" alt="country">
+                              <p class="cr-countryname">USA</p>
+                           </div>
+                           <div class="cr-case">85,604</div>
+                           <div class="cr-deaths">1,301</div>
+                        </li>
+                        <li class="li-country-data">
+                           <div class="cr-country">
+                              <img src="images/country/01.png" alt="country">
+                              <p class="cr-countryname">China</p>
+                           </div>
+                           <div class="cr-case">81,340</div>
+                           <div class="cr-deaths">3,292</div>
+                        </li>
+                        <li class="li-country-data">
+                           <div class="cr-country">
+                              <img src="images/country/02.png" alt="country">
+                              <p class="cr-countryname">Italy</p>
+                           </div>
+                           <div class="cr-case">80,589</div>
+                           <div class="cr-deaths">8,215</div>
+                        </li>
+                        <li class="li-country-data">
+                           <div class="cr-country">
+                              <img src="images/country/04.png" alt="country">
+                              <p class="cr-countryname">Spain</p>
+                           </div>
+                           <div class="cr-case">57,786</div>
+                           <div class="cr-deaths">4,365</div>
+                        </li>
+                        <li class="li-country-data">
+                           <div class="cr-country">
+                              <img src="images/country/05.png" alt="country">
+                              <p class="cr-countryname">Germany</p>
+                           </div>
+                           <div class="cr-case">43,938</div>
+                           <div class="cr-deaths">267</div>
+                        </li>
+                        <li class="li-country-data">
+                           <div class="cr-country">
+                              <img src="images/country/06.png" alt="country">
+                              <p class="cr-countryname">Iran</p>
+                           </div>
+                           <div class="cr-case">29,406</div>
+                           <div class="cr-deaths">2,234</div>
+                        </li>
+                        <li class="li-country-data">
+                           <div class="cr-country">
+                              <img src="images/country/07.png" alt="country">
+                              <p class="cr-countryname">France</p>
+                           </div>
+                           <div class="cr-case">29,155</div>
+                           <div class="cr-deaths">1,696</div>
+                        </li>
+                        <li class="li-country-data">
+                           <div class="cr-country">
+                              <img src="images/country/08.png" alt="country">
+                              <p class="cr-countryname">Switzerland</p>
+                           </div>
+                           <div class="cr-case">11,811</div>
+                           <div class="cr-deaths">192</div>
+                        </li>
+                        <li class="li-country-data">
+                           <div class="cr-country">
+                              <img src="images/country/09.png" alt="country">
+                              <p class="cr-countryname">UK</p>
+                           </div>
+                           <div class="cr-case">11,658</div>
+                           <div class="cr-deaths">578</div>
+                        </li>
+                        <li sclass="li-country-data">
+                           <div class="cr-country">
+                              <img src="images/country/10.png" alt="country">
+                              <p class="cr-countryname">S. Korea</p>
+                           </div>
+                           <div class="cr-case">9,332</div>
+                           <div class="cr-deaths">139</div>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- /*---------------------------------------- FINISH STAT SECTION ----------------------------------------*/  -->
+      <!-- /*---------------------------------------- PROFILE ----------------------------------------*/ -->
+      <section id="profile">
+         <img id="profile-me" src="images/fixed-header/me.jpg"/>
+         <h3>GARVIT CHITTORA<br> &nbsp &nbsp IIIT ALLAHABAD</h3>
+         <h4>Web Developer |Competitive Programmer | Tech-lover |  </h4>
+         <a href="https://github.com/garvitchittora" class="link">
+            <i class="fa fa-github fa-2x"  aria-hidden="true"></i>
+         </a>
+         <a href="https://twitter.com/ChittoraGarvit"class="link">
+            <i class="fa fa-twitter fa-2x" aria-hidden="true" ></i>
+         </a>
+         <a href="https://www.linkedin.com/in/garvit-chittora-62a265170/"  class="link">
+            <i class="fa fa-linkedin-square fa-2x"  aria-hidden="true"></i>
+         </a>  
+         <a href="https://www.facebook.com/garvit.chittora.90" class="link">
+            <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+         </a>
+         <a href="https://www.instagram.com/garvit_chittora_07/">
+            <i class="fa fa-instagram fa-2x" id="profile-insta" aria-hidden="true"></i>
+         </a>  
+      </section>
+      <!-- /*---------------------------------------- FINISH PROFILE ----------------------------------------*/  -->
+      <!-- /*---------------------------------------- FIXED HEADER ----------------------------------------*/  -->
+      <section id="myHeader">
+         <div class="myHeader-logo">
+            <a href="index.html" class="myHeader-logo-a">
+               <img src="images/fixed-header/02.png">
+            </a>
+         </div>
+         <div id="searchbar1">
+            <input id="where_div1" placeholder="  Survey:  Where you were in 14 days ?" >
+            <div id="date-picker-div">   
+               <input type="text" name="datefilter" value="       Add Dates Here By Clicking On It"/>
+            </div>
+            <a href="index.html">
+               <div id="search_div1">
+                  <p id="search_text">Submit</p>
+               </div>
+            </a>
+         </div>
+         <button  type="button" class="developer-button" id="developer">DEVELOPER</button>
+         <a class="myHeader-a" href="https://pmnrf.gov.in/en/online-donation">DONATE</a>
+         <a class="myHeader-a" href="https://www.who.int/">WHO</a>
+      </section>
+     <!--  /*---------------------------------------- FINISH FIXED HEADER ----------------------------------------*/
+      /*---------------------------------------- SAFE-ACTION ----------------------------------------*/ -->
+      <section class="safe-actions">
+         <div class="safe-action-container">
+            <div class="section-header-safe-hand" >
+               <h1 >How to Wash Your Hands</h1>
+               <p >Dynamically formulate fully tested catalysts for change via focused methods of empowerment Assertively extend alternative synergy and extensive web services.</p>
+            </div>
+            <div class="safe-hand-12-row">
+               <div class="safe-hand-12" data-wow-delay="0.3s">
+                  <div class="safe-item">
+                     <div class="safe-thumb">
+                        <img src="images/home-3/01.jpg" alt="safe">
+                     </div>
+                     <div class="safe-content">
+                        <h6>Wet Hands</h6>
+                     </div>
+                  </div>
+               </div>
+               <div class="safe-hand-12" data-wow-delay="0.3s">
+                  <div class="safe-item">
+                     <div class="safe-thumb">
+                        <img src="images/home-3/02.jpg" alt="safe">
+                     </div>
+                     <div class="safe-content">
+                        <h6>Apply Soap</h6>
+                     </div>
+                  </div>
+               </div>
+               <div class="safe-hand-12" data-wow-delay="0.3s">
+                  <div class="safe-item">
+                     <div class="safe-thumb">
+                        <img src="images/home-3/03.jpg" alt="safe">
+                     </div>
+                     <div class="safe-content">
+                        <h6>Rub Hands Palm to palm</h6>
+                     </div>
+                  </div>
+               </div>
+               <div class="safe-hand-12" data-wow-delay="0.3s">
+                  <div class="safe-item">
+                     <div class="safe-thumb">
+                        <img src="images/home-3/04.jpg" alt="safe">
+                     </div>
+                     <div class="safe-content">
+                        <h6 >Lather The Back of Both Hands</h6>
+                     </div>
+                  </div>
+               </div>
+               <div class="safe-hand-12" data-wow-delay="0.3s">
+                  <div class="safe-item">
+                     <div class="safe-thumb">
+                        <img src="images/home-3/05.jpg" alt="safe">
+                     </div>
+                     <div class="safe-content">
+                        <h6>Scrub Between Your Fingers</h6>
+                     </div>
+                  </div>
+               </div>
+               <div class="safe-hand-12" data-wow-delay="0.3s">
+                  <div class="safe-item">
+                     <div class="safe-thumb">
+                        <img src="images/home-3/06.jpg" alt="safe">
+                     </div>
+                     <div class="safe-content">
+                        <h6>Rub The Back of Fingers on The Opposing Palm</h6>
+                     </div>
+                  </div>
+               </div>
+               <div class="safe-hand-12" data-wow-delay="0.3s">
+                  <div class="safe-item">
+                     <div class="safe-thumb">
+                        <img src="images/home-3/07.jpg" alt="safe">
+                     </div>
+                     <div class="safe-content">
+                        <h6>Clean Thumbs</h6>
+                     </div>
+                  </div>
+               </div>
+               <div class="safe-hand-12" data-wow-delay="0.3s">
+                  <div class="safe-item">
+                     <div class="safe-thumb">
+                        <img src="images/home-3/08.jpg" alt="safe">
+                     </div>
+                     <div class="safe-content">
+                        <h6>Wash Fingernails And Fingertips</h6>
+                     </div>
+                  </div>
+               </div>
+               <div class="safe-hand-12" data-wow-delay="0.3s">
+                  <div class="safe-item">
+                     <div class="safe-thumb">
+                        <img src="images/home-3/09.jpg" alt="safe">
+                     </div>
+                     <div class="safe-content">
+                        <h6>Rinse Hands</h6>
+                     </div>
+                  </div>
+               </div>
+               <div class="safe-hand-12" data-wow-delay="0.3s">
+                  <div class="safe-item">
+                     <div class="safe-thumb">
+                        <img src="images/home-3/10.jpg" alt="safe">
+                     </div>
+                     <div class="safe-content">
+                        <h6>Dry with a Single Use Towel</h6>
+                     </div>
+                  </div>
+               </div>
+               <div class="safe-hand-12" data-wow-delay="0.3s">
+                  <div class="safe-item">
+                     <div class="safe-thumb">
+                        <img src="images/home-3/11.jpg" alt="safe">
+                     </div>
+                     <div class="safe-content">
+                        <h6>Use The Towel to Rurn off The Foucet</h6>
+                     </div>
+                  </div>
+               </div>
+               <div class="safe-hand-12" data-wow-delay="0.3s">
+                  <div class="safe-item">
+                     <div class="safe-thumb">
+                        <img src="images/home-3/12.jpg" alt="safe">
+                     </div>
+                     <div class="safe-content">
+                        <h6>Your Hands Are Clean</h6>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- /*----------------------------------------FINISHED SAFE-ACTION ----------------------------------------*/  -->
+      <!-- /*---------------------------------------- MID SECTION ----------------------------------------*/  -->
+      <section id="mid">
+         <div>
+            <p id="mid_heading">We may be&nbsp A&nbsp&nbspP&nbsp&nbspA&nbsp&nbspR&nbsp&nbspT&nbsp, but we'll get<br> through this together.</p>
+         </div>
+         <div id="part1">
+            <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public" class="link1">
+               <img src="images/apart_section/pic_16.jpg" class="part_image1"/>
+               <p class="mid_text">COVID</p>
+               <p class="mid_para">Advice for the public</p>
+            </a>
+         </div>
+         <div id="part2">
+            <a href="https://covid19.who.int/" class="link1">
+               <img src="images/apart_section/country.png" class="part_image1"/>
+               <p class="mid_text">STATS</p>
+               <p class="mid_para">Coronavirus disease (COVID-19) outbreak situation</p>
+            </a>
+         </div>
+         <div id="part3">
+            <a href="https://www.worldometers.info/coronavirus/coronavirus-symptoms/" class="link1">
+               <img src="images/apart_section/01.png" class="part_image1"/>
+               <p class="mid_text" >SYMPTOMS</p>
+               <p class="mid_para" >COVID-19 have had a wide range of symptoms reported </p>
+            </a>
+         </div>
+      </section>
+      <!-- /*----------------------------------------FINISHED MID SECTION ----------------------------------------*/ -->
+      <!-- /*----------------------------------------LOWER MID ----------------------------------------*/ -->
+      <section id="lower_mid" >
+         <li >
+            <div id="lower_mid_heading">READ SOME OF THE BEST ARTICLES</div>
+            <a href="https://www.thenation.com/content/oppart/" id="host_link1">Explore all</a>
+         </li>
+         <li>
+            <p id="lower_mid_sub">Now you can meet people all over the world while trying <br>something new. Join live, interactive video sessions led by <br>expert hosts—all without leaving home.</p>
+         </li>
+         <div id="lower_part1">
+            <a href="https://www.thenation.com/article/society/corona-quot">
+               <img src="images/lower-mid/pic_8.gif" class="part_image"/>
+               <p id="lower_part">
+                  Ready To Fight Back?<br><br>Donald Trump: “One day—it’s like a miracle—it will disappear.”<br>Go Corona Gone ....
+               </p>
+            </a>
+         </div>
+         <div id="lower_part2">
+            <a href="https://www.thenation.com/article/politics/covidiots-trump-and-kudlow/">
+               <img src="images/lower-mid/pic_6.gif" class="part_image"/>
+               <p id="lower_part">
+                  Covidiots: Trump and Kudlow
+               </p>
+            </a>
+         </div>
+         <div id="lower_part3">
+            <a href="https://www.thenation.com/article/society/coronavirus-quotes-part-2/">
+               <img src="images/lower-mid/pic_5.gif" class="part_image"/>
+               <p id="lower_part">
+                  One day—it’s like a miracle—it will disappear.
+               </p>
+            </a>
+         </div>
+         <div id="lower_part4">
+            <a href="https://www.thenation.com/article/society/a-plague-upon-our-home/">
+               <img src="images/lower-mid/pic_4.gif" class="part_image"/>
+               <p id="lower_part">
+                  A Plague Upon Our Home
+               </p>
+            </a>
+         </div>
+      </section>
+      <!-- /*----------------------------------------FINISHED LOWER MID ----------------------------------------*/ -->
+      <!-- /*----------------------------------------FOOTER ----------------------------------------*/ -->
+      <footer class="footer-container">
+         <div id="bottom">
+            <div id="bottom1">
+               <p id="bottom_heading">
+                  About<br>
+               </p>
+               <a href="https://www.who.int/health-topics/coronavirus#tab=tab_1" id="bottom_link">Covid<br><br></a>
+               <a href="https://covid19.who.int/" id="bottom_link">Stats<br><br></a>
+               <a href="https://www.mygov.in/covid-19/?cbps=1" id="bottom_link">News</a>
+            </div>
+            <div id="bottom2">
+               <p id="bottom_heading">
+                  MYGOV SOCIAL HUB<br>
+               </p>
+               <a href="https://www.messenger.com/login.php?next=https%3A%2F%2Fwww.messenger.com%2Ft%2FMyGovIndia" id="bottom_link">Messenger<br><br></a>
+               <a href="https://www.facebook.com/MyGovIndia/" id="bottom_link">Facebook<br><br></a>
+               <a href="https://api.whatsapp.com/send?phone=919013353535&text=Hi&source=&data=&app_absent=" id="bottom_link">Whatsapp</a>
+            </div>
+            <div id="bottom3">
+               <p id="bottom_heading">
+                  PRECAUTIONS<br>
+               </p>
+               <a href="https://www.worldometers.info/coronavirus/coronavirus-symptoms/" id="bottom_link">Symptoms<br><br></a>
+               <a href="https://www.who.int/health-topics/coronavirus#tab=tab_1" id="bottom_link">Advice<br><br></a>
+               <a href="https://www.mygov.in/covid-19/?cbps=1" id="bottom_link">My Gov<br><br></a>
+            </div>
+            <div id="bottom4">
+               <p id="bottom_heading">
+                  Support<br>
+               </p>
+               <a href="https://www.mygov.in/covid-19/?cbps=1" id="bottom_link">Help Centre<br><br></a>
+               <a href="https://pmnrf.gov.in/en/online-donation" id="bottom_link">Donate<br><br></a>
+               <a href="https://covid19.who.int/" id="bottom_link">Stats<br><br></a>
+            </div>
+         </div>
+         <div id="footer">
+            <p>
+            <hr id="footer_length">
+            </p>
+            <div id="footer_text_div">
+               <p id="footer_text"><b>© 2020 COVID, Inc. All rights reserved  &nbsp Privacy &nbsp Terms &nbsp  Sitemap &nbsp UK Modern Slavery Act &nbsp Company details</b></p>
+            </div>
+            <div id="footer_img_div">
+               <a href="https://www.facebook.com/garvit.chittora.90" class="link">
+                  <i class="fa fa-github" id="footer_github_image" aria-hidden="true"></i>
+               </a>
+               <a href="https://twitter.com/ChittoraGarvit" class="link">
+                  <i class="fa fa-twitter" aria-hidden="true"id="footer_twitter_image" ></i>
+               </a>
+               <a href="https://www.linkedin.com/in/garvit-chittora-62a265170/" class="link">
+                  <i class="fa fa-linkedin" id="footer_linkedin_image" aria-hidden="true"></i>
+               </a>  
+               <a href="https://www.facebook.com/garvit.chittora.90" class="link">
+                  <i class="fa fa-facebook" aria-hidden="true" id="footer_fb_image"></i>
+               </a>
+               <a href="https://www.instagram.com/garvit_chittora_07/">
+                  <i class="fa fa-instagram" id="footer_insta_image" aria-hidden="true"></i>
+               </a>
+            </div>
+         </div>
+      </footer>
+      <!-- /*----------------------------------------FINISH FOOTER ----------------------------------------*/ -->
+
+      <script type="text/javascript">
+         window.addEventListener("load",function(){
+            const loader=document.querySelector(".overlay");
+            loader.className+=" hidden";
+         });
+       
+         $(function() {
+            $('input[name="datefilter"]').daterangepicker({
+            autoUpdateInput: false,
+            locale: {
+               cancelLabel: 'Clear'
+            }
+            });
+            $('input[name="datefilter"]').on('apply.daterangepicker', function(ev, picker) {
+               $(this).val("    "+picker.startDate.format('MM/DD/YYYY') + ' - ' + picker.endDate.format('MM/DD/YYYY'));
+            });
+            $('input[name="datefilter"]').on('cancel.daterangepicker', function(ev, picker) {
+               $(this).val('       Add Dates Here By Clicking On It');
+            });
+         });
+         
+         window.onscroll = function() {myFunction()};
+         var header = document.getElementById("myHeader");
+         function myFunction() {
+            if (window.pageYOffset > 600) {
+               header.classList.add("sticky");
+               $("#myHeader").css("display","block");
+            }else {
+               header.classList.remove("sticky");
+               $("#myHeader").css("display","none");
+            }
+         }
+      
+         $(document).ready(function(){
+                   $('.count-number').each(function () {
+           $(this).prop('Counter',0).animate({
+               Counter: $(this).text()
+           }, {
+               duration: 4000,
+               easing: 'swing',
+               step: function (now) {
+                   $(this).text(Math.ceil(now));
+               }
+           });
+         
+         });
+         
+         $("#developer").hover(function(){
+            $("#profile").css("display", "block");
+            var width = $(document).width();
+            if(width<=768){
+               $("#profile").css("width","40%");
+               $("#profile").css("margin-left","50%")
+            }  
+            else{
+               $("#profile").css("width","20%");
+               $("#profile").css("margin-left","75%")
+            } 
+           }, function(){
+           $("#profile").css("display", "none");
+         });
+         
+         $(".meet_doctor").hover(function(){
+            $(this).text("AVAILABLE!");
+            $(this).css("margin-left","22%");
+            $(this).css("font-size","17px");
+            $("#meet-doctor-div").css("background-color","green");
+         }, function(){
+            $(this).text("MEET THE DOCTOR");
+            $(this).css("font-size","17px");
+            $(this).css("margin-left","12%");
+            $("#meet-doctor-div").css("background-color","");
+            });
+         });         
+         
+      </script>
+   </body>
+</html>
