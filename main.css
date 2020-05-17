@@ -32,7 +32,7 @@ body{
 	 align-items: center;
 }
 .overlay h1{
-	background: linear-gradient(to right, rgb(6, 37, 76) 9.38%, rgb(25, 122, 137) 88.54%);
+	background: #b3b3ff;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
