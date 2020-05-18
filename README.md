@@ -1,7 +1,7 @@
 # COVID-19 (ALL LIVE UPDATES) DOCUMENTATION :
 
 
-## DESCRIBTION :
+## DESCRIPTION :
 This Project contains all essential information about 2019–20 coronavirus pandemic link symptoms , advisory given by government and one can see statistics of number of covid cases and death around the world . This project also contain a survey form asking about where you were in these 14 days and its dates . Through this project one can donate money to INDIAN GOVERNMENT .Methods of how to wash hands is also mention on the webpage .It also contain a section where you can find some good article for entertainment .
 
 ## LANGUAGES USED IN WEBPAGE:
@@ -369,6 +369,6 @@ Serial Number)
 
 
 ## Author :
-Garvit Chitttora , I am a First year student at IIIT Allahabad . I had made this webpage for selection in a competition organised by WebD wing of GeekHeaven ,IIIT A .
+Garvit Chittora , I am a First year student at IIIT Allahabad . I had made this webpage for selection in a competition organised by WebD wing of GeekHeaven ,IIIT A .
 
 Contact On : iit2019142@iiita.ac.in for more information .
