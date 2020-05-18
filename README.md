@@ -45,7 +45,7 @@ This Project contains all essential information about 2019–20 coronavirus pand
 
 ## DIFFERENT HTML / CSS SECTIONS OF THE WEBPAGE:
 #### NO OF SECTIONS : 11
-  
+
 **1) BANNER -** This section has Banner of the webpage which has a image ( which rotate 360 degree in 10
 seconds for infinite time ) , Heading , Sub Heading and a  MEET THE DOCTOR Button ( which show Doctor is
 available or not ) . This section has 1 function whose function is when this button is hoved it changes 
@@ -114,9 +114,8 @@ Serial Number)
 			a) This function is used to add a class in "overlay" when full webpage is loaded .
 
 			b) The addEventListener() method attaches an event handler to an element without overwriting 
-			existing event handlers.
-			syntax element.addEventListener(event, function) . I had used load event in addEventListener()
-			which call the function when the webpage is completely loaded . 
+			existing event handlers,syntax element.addEventListener(event, function) . I had used 
+			load event in addEventListener() which call the function when the webpage is completely loaded . 
 			
 				//window.addEventListener("load",function(){
 
@@ -133,7 +132,7 @@ Serial Number)
 
 
        	2)
-       		a) This function is used to make operations on datepicker in survey form and decide what will be 
+       		a) This function is used to make operations on datepicker used in survey form and decide what will be 
 		the value of the datepicker .
 			
 			b)A date-picker of jQuery UI is used to provide a calendar to the user to select the date from a
@@ -141,7 +140,7 @@ Serial Number)
 			calendar can be transferred to the textbox.
 			
 			Element is seached with name "datefilter" and of input category . In this autoupdate input is
-			placed false .
+			placed false means value is not autoupdated .
 		        //$(function() {
 		            //$('input[name="datefilter"]').daterangepicker({
 		            //autoUpdateInput: false,
@@ -168,7 +167,7 @@ Serial Number)
         3) 	
         	a) This function is used to position the fixed header after 600 px and add some class to it .
 			
-		b) The "onscroll" event occurs when an element's scrollbar is being scrolled. When someone scroll it
+		b) The "onscroll" event occurs when an element's scrollbar is being scrolled. When someone scroll, it
 		calls "myFunction" function.
 		    	
 		    	//window.onscroll = function() {myFunction()};
@@ -282,7 +281,7 @@ Serial Number)
 
         7)
          	a) This function is used when a user hover over the element with id "developer" it changes css of element
-		whose id is "profile" and according to width also it changes the css .
+		whose id is "profile" and according to width of the document also it changes the css .
 			
 		b) The hover() method specifies two functions to run when the mouse pointer hovers over the selected
 		elements , syntax $(selector).hover(inFunction,outFunction) . When cursor is hovered over element with
