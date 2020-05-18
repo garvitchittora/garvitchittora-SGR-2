@@ -1,4 +1,4 @@
-# COVID-19 ALL LIVE UPDATES
+# COVID-19 (ALL LIVE UPDATES) DOCUMENTATION :
 
 
 ## DESCRIBTION :
@@ -14,13 +14,13 @@ This Project contains all essential information about 2019–20 coronavirus pand
 	
   #### There are two ways:
 	
-  1) **By link**: 
+   **1) By link**: 
 		Just click on the link given below that will take you directly to the webpage
     
 		https://garvitchittora.github.io/garvitchittora-SGR-2/
     
     
-  2) **Git Clone**:
+   **2) Git Clone**:
 		For this method you should gave git bash installed on your workstation and then follow the given below
     		commands
 		Step 1) Open Git Bash .
