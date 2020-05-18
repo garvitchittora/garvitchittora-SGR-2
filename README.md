@@ -7,22 +7,22 @@ This Project contains all essential information about 2019–20 coronavirus pand
 ## LANGUAGES USED IN WEBPAGE:
 ```
 	1) HTML
-	2)CSS
+	2) CSS
 	3) JAVASCRIPT ( JQUERY )
  ```
 ## HOW TO USE THIS WEBPAGE :
 	
   #### There are two ways:
 	
-  1) By link: 
+  1) **By link**: 
 		Just click on the link given below that will take you directly to the webpage
     
 		https://garvitchittora.github.io/garvitchittora-SGR-2/
     
     
-	2) Git Clone:
+  2) **Git Clone**:
 		For this method you should gave git bash installed on your workstation and then follow the given below
-    commands
+    		commands
 		Step 1) Open Git Bash .
 		Step 2) Git clone https://github.com/garvitchittora/garvitchittora-SGR-2.git (Wait till 100% is 
 		completed)
@@ -33,60 +33,62 @@ This Project contains all essential information about 2019–20 coronavirus pand
 ## File In This Project :
 #### This project has 3 files :
   
-		1) index.html - which is a html file contain html/javascript code of the webpage.
-		2) main.css - which is a css file contain css code of the webpage.
-		3) images folder - which contains all images used in webpage .
+**1) index.html** - which is a html file contain html/javascript code of the webpage.
+
+**2) main.css** - which is a css file contain css code of the webpage.
+
+**3) images folder** - which contains all images used in webpage .
 
 ## DIFFERENT HTML SECTIONS OF THE WEBPAGE:
 #### NO OF SECTIONS : 11
   
-		1) Scroll - In this section color and orientation of the normal scroll is changed .  
-		
-		2) Move to the top - This section consist of a button which take the webpage directly to the top through 
-		two javascript function mentioned below one for its positioning and another function task is when we click
-		on the move to the top button it takes to the top .
-		
-		3) PRELOADER - This section consist of a simple loader ( a page which you see untill whole webpage is 
-		completely loaded for use ) which has 3 div and a text (GO CORONA GO....) . It consist of a javasript
-		function that change its css property after whole webpage is loaded . 
-		
-		4) BANNER - This section has Banner of the webpage which has a image ( which rotate 360 degree in 10
-		seconds for infinite time ) , Heading , Sub Heading and a  MEET THE DOCTOR Button ( which show Doctor is
-		available or not ) . This section has 1 function whose function is to check Doctor is available or not .  
-		
-		5) STAT SECTION - This section has all the statistics about COVID - 19 like Total number of coronavirus 
-	    	cases around the world , Total number of recovered cases around the world ,Total number of Deaths and Total 
-	    	number of countries which are going through Covid -19 . This section also has a map ( showing regions around
-	    	the world on the basis of number of cases in the country ) and Stats of Top 10 Countries which are going
-	    	through COVID with total number of cases and total number of Deaths in the country . It also has a javasript
-	    	function which increase value of the section slowly (in 4 second ) to a fixed defined value .
-		
-		6) PROFILE :This section has my picture along with some basic information about me , which display when
-    	someone hover over the developer button in fixed header . 
+**1) Scroll -**  In this section color and orientation of the normal scroll is changed .  
 
-		7) FIXED HEADER - This section has a header in which is fixed after a particular pixels ( 600 px ) . 
-	    	It has website logo , a survey form ( which is a general survey asking about where you were in these 14 days
-	    	and Date picker through which you can select initial and final date ) , WHO ( world health organisation's
-	    	webpage link ) , DONATE ( By clicking on it you are redirected to government of india's webpage where
-	    	you can donate money ) , DEVELOPER ( which on hover open profile section ) . This section has 3 (1 for
-	    	date picker , 1 position of fixed header and 1 for developer section indepth functions are explained below )
-	    	javascript functions .
-		
-		8) SAFE-ACTION - This section consist of correct method of how one should wash hands . It has 12 parts 
-		each one image (image on hover rotate 360 degree in 4 seconds ) shows the different steps of how to wash hands
-		and discribtion about the step . 
-		
-		9) MID SECTION - This section consist of information about symptoms of COVID , advisory given by 
-	    	government and one can see statistics of number of covid cases and death around the world . It has 3 parts 
-	    	each having one image and Heading of the part . If we hover on any of the part , it transform to 1.05 times . 
-		
-		10) LOWER MID - This section consist of section where you can find some good article for entertainment.
-		It has 4 parts each having one image of the article and discribtion about the article . If we hover on any
-		of the part , it lifts up . 
-		
-		11) FOOTER - This section has footer of the webpage and copyright bar along with link of my instagram ,
-		facebook , linkedin , twitter , github accounts . It also has informational link of symptoms , advice ,
-		stats , etc.
+**2) Move to the top -**  This section consist of a button which take the webpage directly to the top through 
+two javascript function mentioned below one for its positioning and another function task is when we click
+on the move to the top button it takes to the top .
+
+**3) PRELOADER** - This section consist of a simple loader ( a page which you see untill whole webpage is 
+completely loaded for use ) which has 3 div and a text (GO CORONA GO....) . It consist of a javasript
+function that change its css property after whole webpage is loaded . 
+
+**4) BANNER -** This section has Banner of the webpage which has a image ( which rotate 360 degree in 10
+seconds for infinite time ) , Heading , Sub Heading and a  MEET THE DOCTOR Button ( which show Doctor is
+available or not ) . This section has 1 function whose function is to check Doctor is available or not .  
+
+**5) STAT SECTION -**  This section has all the statistics about COVID - 19 like Total number of coronavirus 
+cases around the world , Total number of recovered cases around the world ,Total number of Deaths and Total 
+number of countries which are going through Covid -19 . This section also has a map ( showing regions around
+the world on the basis of number of cases in the country ) and Stats of Top 10 Countries which are going
+through COVID with total number of cases and total number of Deaths in the country . It also has a javasript
+function which increase value of the section slowly (in 4 second ) to a fixed defined value .
+
+**6) PROFILE -** This section has my picture along with some basic information about me , which display when
+someone hover over the developer button in fixed header . 
+
+**7) FIXED HEADER -** This section has a header in which is fixed after a particular pixels ( 600 px ) . 
+It has website logo , a survey form ( which is a general survey asking about where you were in these 14 days
+and Date picker through which you can select initial and final date ) , WHO ( world health organisation's
+webpage link ) , DONATE ( By clicking on it you are redirected to government of india's webpage where
+you can donate money ) , DEVELOPER ( which on hover open profile section ) . This section has 3 (1 for
+date picker , 1 position of fixed header and 1 for developer section indepth functions are explained below )
+javascript functions .
+
+**8) SAFE-ACTION -** This section consist of correct method of how one should wash hands . It has 12 parts 
+each one image (image on hover rotate 360 degree in 4 seconds ) shows the different steps of how to wash hands
+and discribtion about the step . 
+
+**9) MID SECTION -** This section consist of information about symptoms of COVID , advisory given by 
+government and one can see statistics of number of covid cases and death around the world . It has 3 parts 
+each having one image and Heading of the part . If we hover on any of the part , it transform to 1.05 times . 
+
+**10) LOWER MID -** This section consist of section where you can find some good article for entertainment.
+It has 4 parts each having one image of the article and discribtion about the article . If we hover on any
+of the part , it lifts up . 
+
+**11) FOOTER -** This section has footer of the webpage and copyright bar along with link of my instagram ,
+facebook , linkedin , twitter , github accounts . It also has informational link of symptoms , advice ,
+stats , etc.
 
 
 ## FUNCTIONS OF JAVASCRIPT USED IN THE WEBPAGE:
